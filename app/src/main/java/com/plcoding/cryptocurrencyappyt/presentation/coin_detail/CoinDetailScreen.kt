@@ -32,7 +32,7 @@ import com.plcoding.cryptocurrencyappyt.presentation.coin_detail.components.Team
 import com.plcoding.cryptocurrencyappyt.presentation.coint_list.components.CoinListItem
 
 @Composable
-fun Screen.CoinDetailScreen(
+fun CoinDetailScreen(
     viewModel: CoinDetailViewModel = hiltViewModel(),
 ) {
     val state = viewModel.state.value
